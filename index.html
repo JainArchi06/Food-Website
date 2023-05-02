@@ -1,0 +1,273 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Icoder</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ"
+      crossorigin="anonymous"
+    />
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#">All-Day-Food</a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="/about.html">About us</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a
+                class="nav-link dropdown-toggle"
+                href="#"
+                role="button"
+                data-bs-toggle="dropdown"
+                aria-expanded="false"
+              >
+                Dropdown
+              </a>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="#">Food</a></li>
+                <li><a class="dropdown-item" href="#">Drinks</a></li>
+                <li><hr class="dropdown-divider" /></li>
+                <li>
+                  <a class="dropdown-item" href="#">Recipes</a>
+                  <a class="dropdown-item" href="#">Nazariya</a>
+                </li>
+              </ul>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="/Contact.html">Contact us</a>
+            </li>
+          </ul>
+          <form class="d-flex" role="search">
+            <input
+              class="form-control me-2"
+              type="search"
+              placeholder="Search"
+              aria-label="Search"
+            />
+            <button class="btn btn-outline-success" type="submit">
+              Search
+            </button>
+          </form>
+        </div>
+      </div>
+    </nav>
+    <div id="carouselExampleCaptions" class="carousel slide">
+      <div class="carousel-indicators">
+        <button
+          type="button"
+          data-bs-target="#carouselExampleCaptions"
+          data-bs-slide-to="0"
+          class="active"
+          aria-current="true"
+          aria-label="Slide 1"
+        ></button>
+        <button
+          type="button"
+          data-bs-target="#carouselExampleCaptions"
+          data-bs-slide-to="1"
+          aria-label="Slide 2"
+        ></button>
+        <button
+          type="button"
+          data-bs-target="#carouselExampleCaptions"
+          data-bs-slide-to="2"
+          aria-label="Slide 3"
+        ></button>
+      </div>
+
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img
+            src="food.png"
+            class="d-block w-100"
+            alt="..." width="1200" height="700"
+          />
+          <div class="carousel-caption d-none d-md-block">
+            <h5 class="text-success">We are Vegetarian.text-primary</h5>
+            <p class="text-success">
+              To my mind, the life of a lamb is no less precious than that of a
+              human being.
+            </p>
+            <button class="btn btn-outline-danger">Food</button
+            ><button class="btn btn-outline-primary">Drinks</button
+            ><button class="btn btn-outline-success">Sweet-Deligths</button>
+          </div>
+        </div>
+
+        <div class="carousel-item">
+          <img
+            src="https://images.pexels.com/photos/96620/pexels-photo-96620.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+            class="d-block w-100"
+            alt="..."
+          />
+          <div class="carousel-caption d-none d-md-block">
+            <h5 class="text-danger-emphasis">Just Enjoy!</h5>
+            <p class="text-danger-emphasis">"Drinks Is better than food"</p>
+            <button class="btn btn-outline-danger">Food</button
+            ><button class="btn btn-outline-primary">Drinks</button
+            ><button class="btn btn-outline-success">Sweet-Deligths</button>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <img
+            src="https://images.pexels.com/photos/61180/pexels-pho to-61180.jpeg?auto=compress&cs=tinysrgb&w=600"
+            class="d-block w-100"
+            alt="..."
+          />
+          <div class="carousel-caption d-none d-md-block">
+            <h5 class="text-info-emphasis">Healthy-Healthy</h5>
+            <p class="text-info-emphasis">
+              "Refresh your palate with our crisp and colorful salads."
+            </p>
+            <button class="btn btn-outline-danger">Food</button
+            ><button class="btn btn-outline-primary">Drinks</button
+            ><button class="btn btn-outline-success">Sweet-Deligths</button>
+          </div>
+        </div>
+
+        <button
+          class="carousel-control-prev"
+          type="button"
+          data-bs-target="#carouselExampleCaptions"
+          data-bs-slide="prev"
+        >
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button
+          class="carousel-control-next"
+          type="button"
+          data-bs-target="#carouselExampleCaptions"
+          data-bs-slide="next"
+        >
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+    </div>
+    <div class="row mb-2 mt-4 mx-3">
+      <div class="col-md-6">
+        <div
+          class="row g-0 border rounded overflow-hidden flex-md-row mb-4 shadow-sm h-md-250 position-relative"
+        >
+          <div class="col p-4 d-flex flex-column position-static">
+            <strong class="d-inline-block mb-2 text-primary"></strong>
+            <h3 class="mb-0">Indian Food</h3>
+            <div class="mb-1 text-body-secondary"></div>
+            <p class="card-text mb-auto">
+              This is a wider card with supporting text below as a natural
+              lead-in to additional content.
+            </p>
+            <a href="#" class="stretched-link">Continue reading</a>
+          </div>
+          <div class="col-auto d-none d-lg-block">
+            <img
+              src="https://i.pinimg.com/236x/8a/7a/d6/8a7ad6b5f2977649715d67e24c21220f.jpg"
+              alt="juice"
+              width="200"
+              height="250"
+            />
+          </div>
+        </div>
+
+        <!-- <div class="col-md-6"> -->
+        <div
+          class="row g-0 border rounded overflow-hidden flex-md-row mb-4 shadow-sm h-md-250 position-relative"
+        >
+          <div class="col p-4 d-flex flex-column position-static">
+            <strong class="d-inline-block mb-2 text-success"></strong>
+            <h3 class="mb-0">Rajsthani Food</h3>
+            <div class="mb-1 text-body-secondary"></div>
+            <p class="mb-auto">
+              This is a wider card with supporting text below as a natural
+              lead-in to additional content.
+            </p>
+            <a href="#" class="stretched-link">Continue reading</a>
+          </div>
+          <div class="col-auto d-none d-lg-block">
+            <img
+              src="https://i.pinimg.com/236x/3d/61/dc/3d61dcf2abc9d40d19038f2400bb62aa.jpg"
+              alt="food"
+              width="200"
+              height="250"
+            />
+          </div>
+        </div>
+      </div>
+      <!-- </div> -->
+      <!-- <div class="row mb-2 mt-4 ms-3"> -->
+      <div class="col-md-6">
+        <div
+          class="row g-0 border rounded overflow-hidden flex-md-row mb-4 shadow-sm h-md-250 position-relative"
+        >
+          <div class="col p-4 d-flex flex-column position-static">
+            <strong class="d-inline-block mb-2 text-primary"></strong>
+            <h3 class="mb-0">Chienese</h3>
+            <div class="mb-1 text-body-secondary">Nov 12</div>
+            <p class="card-text mb-auto">
+              This is a wider card with supporting text below as a natural
+              lead-in to additional content.
+            </p>
+            <a href="#" class="stretched-link">Continue reading</a>
+          </div>
+          <div class="col-auto d-none d-lg-block">
+            <img src="https://i.pinimg.com/236x/e3/ac/a4/e3aca4310acc6d2a0712baf724e64041.jpg" alt="" width="200" height="250">
+          </div>
+        </div>
+        <!-- </div> -->
+        <!-- <div class="col-md-6"> -->
+        <div
+          class="row g-0 border rounded overflow-hidden flex-md-row mb-4 shadow-sm h-md-250 position-relative"
+        >
+          <div class="col p-4 d-flex flex-column position-static">
+            <strong class="d-inline-block mb-2 text-success"></strong>
+            <h3 class="mb-0">South Indian</h3>
+            <div class="mb-1 text-body-secondary">Nov 11</div>
+            <p class="mb-auto">
+              This is a wider card with supporting text below as a natural
+              lead-in to additional content.
+            </p>
+            <a href="#" class="stretched-link">Continue reading</a>
+          </div>
+          <div class="col-auto d-none d-lg-block">
+            <img src="https://i.pinimg.com/236x/2b/04/5d/2b045d361ca6d0b02bd8b10f0fc55b8f.jpg" alt=""width="236" height="236">
+          </div>
+        </div>
+      </div>
+      <!-- </div> -->
+    </div>
+    <footer class="container">
+      <p class="float-end"><a href="#">Back to top</a></p>
+      <p>
+        ©2023 -2023,All-Day-Food, Inc. · <a href="#">Privacy</a> ·
+        <a href="#">Terms</a>
+      </p>
+    </footer>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
